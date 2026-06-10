@@ -46,12 +46,9 @@ python api/index.py
 
 Then open <http://localhost:5000> in your browser.
 
-### Deploying to Vercel
+### Online Deployment
 
-1. Sign in to [vercel.com](https://vercel.com) with your GitHub account and import this repository
-2. Choose **Other** as the Framework Preset; no build command is needed
-3. Add `OPENAI_API_KEY` under **Settings → Environment Variables**
-4. Deploy — `public/` is served as static files by the CDN, and `/api/*` is automatically routed to `api/index.py`
+Due to cost considerations, a public online deployment link is not provided for now.
 
 ## API
 
