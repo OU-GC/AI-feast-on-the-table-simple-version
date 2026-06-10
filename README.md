@@ -1,4 +1,4 @@
-# AI Feast on the Table for AU
+# AI Feast on the Table (simple)
 
 An AI-powered personalized dining recommendation system built for the Asia University Generative AI Competition, combining real campus restaurant menus with OpenAI GPT.
 
@@ -20,8 +20,6 @@ ai-feast-on-the-table/
 │   └── images/             # Background images
 ├── data/
 │   └── restaurant_information_v3.csv   # Restaurant menus with nutrition facts
-├── scripts/
-│   └── get_restaurant_information.py   # Menu scraper (QuickClick API)
 ├── docs/                   # Project proposal, architecture & flow diagrams
 ├── showcase/               # Demo results (kept local only, not in version control)
 ├── vercel.json             # Vercel routing config
@@ -75,7 +73,7 @@ The response includes the BMI, daily caloric need, recommended macronutrient int
 
 ## Data Source
 
-`scripts/get_restaurant_information.py` scrapes menus and prices of 12 restaurants around Asia University via the QuickClick LINE store API.
+Menus and prices of 12 restaurants around Asia University were collected via the QuickClick LINE store API.
 Nutrition facts (calories, protein, fat, carbohydrates) were compiled manually and merged into `data/restaurant_information_v3.csv`.
 
 ## History
