@@ -30,8 +30,6 @@ ai-feast-on-the-table/
 └── LICENSE
 ```
 
-For the system architecture and workflow, see [docs/架構圖.jpg](docs/架構圖.jpg) (architecture diagram) and [docs/流程圖V2.jpg](docs/流程圖V2.jpg) (flow chart).
-
 ## Local Development
 
 ```bash
