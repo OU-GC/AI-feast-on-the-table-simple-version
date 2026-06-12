@@ -1,4 +1,5 @@
-# AI Feast on the Table
+# AI Feast on the Table (Simple-Version)
+
 
 Enter your gender, age, height, weight, and weekly exercise days, and the app
 recommends real restaurant dishes that fit your daily energy needs — ranked by
